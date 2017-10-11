@@ -1,6 +1,5 @@
 
 --
--- data Tree = Leaf | Node a Tree Tree deriving Show
 data Tree a = Leaf | Node a (Tree a) (Tree a) deriving (Show,Eq)
 
 --
